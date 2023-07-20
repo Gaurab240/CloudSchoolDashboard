@@ -1,0 +1,60 @@
+.dashboard{
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+    background-color: antiquewhite;
+}
+
+.forSidebar{
+    background-color:rgb(15, 8, 58);
+   
+    height: 100vh;
+    color: white;
+    flex:0.2;
+
+  
+    
+    
+}
+.forCardsAndBar{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+   flex:0.9;
+   margin: 8px;
+  
+   height: 400px;
+   
+   
+
+}
+
+.forCardsAndBar h2{
+    
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        color:#358e9d
+   
+}
+
+.chartAndCopyright{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.dashboardCopyright{
+  margin-top: 20%;}
+
+  .h2AndIcons{
+      display: flex;
+      flex-direction: row;
+      margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }

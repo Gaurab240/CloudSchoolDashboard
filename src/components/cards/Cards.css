@@ -1,0 +1,121 @@
+.cards {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+
+  text-align: left;
+  align-items: center;
+}
+
+.mainContainer {
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+  color: white;
+}
+
+.numberAndPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+  line-height: 1px;
+}
+
+.numberAndPost p{
+    margin-left: 18px;
+}
+
+.cardIcon{
+    font-size: 50px;
+}
+
+ @media screen and (max-width: 814px) {
+    .mainContainer {
+       
+        height: 50px;
+        width: 90%;
+        padding: 10px;
+        color: white;
+      }
+  } 
+
+  @media screen and (max-width: 776px) {
+    .mainContainer {
+       
+        height: 40px;
+        width: 70%;
+        padding: 10px;
+        color: white;
+      }
+
+      .numberAndPost p{
+        margin-left: 16px;
+    }
+
+    .numberAndPost h1{
+        font-size: 18px;
+    }
+
+    .cardIcon{
+        font-size: 35px;
+    }
+    
+    
+  } 
+
+  @media screen and (max-width: 706px) {
+    .mainContainer {
+       
+        height: 33px;
+        width: 50%;
+        padding: 8px;
+       
+      }
+
+      .numberAndPost p{
+        margin-left: 14px;
+    }
+
+    .numberAndPost h1{
+        font-size: 16px;
+    }
+
+    .cardIcon{
+        font-size: 28px;
+    }
+    
+  }
+
+  @media screen and (max-width: 655px) {
+      .cards{
+          display: flex;
+          flex-direction: column;
+      }
+    .mainContainer {
+       
+        height: 33px;
+        width: 75%;
+        padding: 8px;
+       
+      }
+
+      .numberAndPost p{
+        margin-left: 14px;
+    }
+
+    .numberAndPost h1{
+        font-size: 16px;
+    }
+
+    .cardIcon{
+        font-size: 28px;
+    }
+    
+  }
+  

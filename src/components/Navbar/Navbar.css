@@ -1,0 +1,67 @@
+.navDash {
+  background-color: #358e9d;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  height: 50px;
+  position: relative;
+}
+
+.logo {
+  flex: 0.22;
+}
+
+.hambergurAndIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  flex: 1;
+
+  color: white;
+}
+
+.hambergur {
+  margin-left: 50px;
+}
+
+.navDash .nIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+
+  flex: 0.3;
+}
+
+.forMrAdmin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.forMrAdmin p {
+  margin-top: 10px;
+}
+
+.nIcon :hover {
+  cursor: pointer;
+}
+
+.hambergur:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1042px) {
+  .nIcon {
+    gap: 10px;
+  }
+}

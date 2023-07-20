@@ -1,0 +1,42 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: -5px;
+  align-items: left;
+  text-align: left;
+  justify-content: flex-start;
+  margin-bottom: 0;
+}
+
+.menuItems {
+  align-items: center;
+  text-align: right;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-start;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+
+.menuItems > div {
+  display: flex;
+  align-items: center;
+}
+
+.firstIconAndHeading {
+  gap: 1rem;
+}
+
+.firstIcon {
+  font-size: 16px;
+}
+
+.firstIconAndHeading :hover {
+  cursor: pointer;
+}
