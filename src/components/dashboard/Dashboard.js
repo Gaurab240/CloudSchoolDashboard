@@ -4,7 +4,6 @@ import Cards from "../cards/Cards";
 import "./Dashboard.css";
 import Charts from "../chart/Charts";
 import CopyRight from "../copyRight/CopyRight";
-import ScreenWidthFinder from "../cards/ScreenWidthFinder";
 import { BiMinus } from "react-icons/bi";
 import { RxCross1 } from "react-icons/rx";
 
@@ -40,7 +39,7 @@ const Dashboard = () => {
             </div>
 
             <Charts />
-            <ScreenWidthFinder />
+           
           </div>
           <div className="dashboardCopyright">
             <CopyRight />
